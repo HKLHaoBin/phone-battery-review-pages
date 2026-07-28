@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="极客湾手机续航大横评：电池锁容？电量缩水？谁在浑水摸鱼？">
-  <title>极客湾手机续航大横评</title>
+  <meta name="description" content="极客湾评测视频合集：手机续航大横评、游戏性能大横评">
+  <title>极客湾评测视频</title>
   <style>
     :root {
       color-scheme: dark;
@@ -39,21 +39,32 @@
       font-size: 1.1rem;
       line-height: 1.8;
       max-width: 760px;
+      margin-bottom: 40px;
     }
-    video {
-      display: block;
-      width: 100%;
-      margin: 36px 0 18px;
+    .cards {
+      display: grid;
+      gap: 20px;
+    }
+    .card {
       border: 1px solid #475569;
       border-radius: 14px;
-      background: #020617;
-      box-shadow: 0 24px 60px #02061799;
+      padding: 24px 28px;
+      background: #1e293b;
+      box-shadow: 0 16px 40px #02061766;
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.4rem;
+    }
+    .card p {
+      margin: 0 0 18px;
+      color: #cbd5e1;
+      line-height: 1.7;
     }
     .actions {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      margin: 20px 0 36px;
     }
     a {
       display: inline-block;
@@ -69,6 +80,7 @@
       background: #1e3a5f;
     }
     footer {
+      margin-top: 48px;
       color: #94a3b8;
       font-size: 0.9rem;
       line-height: 1.7;
@@ -77,17 +89,30 @@
 </head>
 <body>
   <main>
-    <p class="eyebrow">手机续航评测</p>
-    <h1>极客湾手机续航大横评</h1>
-    <p class="intro">电池锁容？电量缩水？谁在浑水摸鱼？本页面提供原画质视频观看与下载。</p>
-    <video controls preload="metadata" playsinline>
-      <source src="https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v1.0.0/video.mp4" type="video/mp4">
-      你的浏览器不支持 HTML5 视频播放，请使用下面的下载链接。
-    </video>
-    <div class="actions">
-      <a href="https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v1.0.0/video.mp4">下载原画质视频</a>
-      <a class="secondary" href="https://github.com/HKLHaoBin/phone-battery-review-pages/releases/tag/v1.0.0">查看 Release</a>
+    <p class="eyebrow">极客湾评测</p>
+    <h1>评测视频合集</h1>
+    <p class="intro">原画质视频通过 GitHub Release 提供，网页由 GitHub Pages 静态托管。</p>
+
+    <div class="cards">
+      <section class="card">
+        <h2>手机续航大横评</h2>
+        <p>电池锁容？电量缩水？谁在浑水摸鱼？</p>
+        <div class="actions">
+          <a href="battery-review.html">在线观看</a>
+          <a class="secondary" href="https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v1.0.0/video.mp4">下载视频</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>游戏性能大横评（补档）</h2>
+        <p>极客湾游戏性能大横评补档视频。</p>
+        <div class="actions">
+          <a href="game-performance.html">在线观看</a>
+          <a class="secondary" href="https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v2.0.0/game-performance.mp4">下载视频</a>
+        </div>
+      </section>
     </div>
+
     <footer>视频以 GitHub Release 附件形式提供，网页由 GitHub Pages 静态托管。</footer>
   </main>
 </body>
