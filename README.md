@@ -2,7 +2,7 @@
 
 > 极客湾（Geekerwan）手机续航大横评、游戏性能大横评等测评视频的 **GitHub Pages 在线播放与补档** 站点。
 
-本仓库收录极客湾 B 站评测视频的 **1080P 原画质补档**，支持浏览器在线观看与直接下载，无需登录 B 站即可访问。
+本仓库提供评测页面和原发布平台入口；部分历史视频为仓库已有的 Release 附件，新增视频通过 B 站官方播放器嵌入，不复制或重新分发原视频文件。
 
 ---
 
@@ -12,6 +12,7 @@
 |------|------|------|
 | 极客湾手机续航大横评：电池锁容？电量缩水？谁在浑水摸鱼？ | [在线观看](https://hklhaobin.github.io/phone-battery-review-pages/battery-review.html) | [下载 MP4](https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v1.0.0/video.mp4) |
 | 极客湾游戏性能大横评（补档） | [在线观看](https://hklhaobin.github.io/phone-battery-review-pages/game-performance.html) | [下载 MP4](https://github.com/HKLHaoBin/phone-battery-review-pages/releases/download/v2.0.0/game-performance.mp4) |
+| 极客湾手机影像大横评：哪家手机拍照强？ | [在线观看](https://hklhaobin.github.io/phone-battery-review-pages/camera-review.html) | [B 站原页面](https://www.bilibili.com/video/BV1c5yzzGEL9/) |
 
 **首页入口：** https://hklhaobin.github.io/phone-battery-review-pages/
 
@@ -30,6 +31,12 @@
 - **标题：** 极客の湾ゲーム性能大横评（补档）
 - **内容：** 极客湾游戏性能横向测评补档视频
 - **B 站原链：** https://www.bilibili.com/video/BV1q93w6PEce
+
+### 手机影像大横评
+
+- **标题：** 极客湾手机影像大横评：哪家手机拍照强？
+- **内容：** 2026 手机影像理论测试与实拍对比
+- **B 站原链：** https://www.bilibili.com/video/BV1c5yzzGEL9
 
 ---
 
